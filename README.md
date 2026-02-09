@@ -18,10 +18,6 @@ As the sample size **n** increases, the sample means concentrate more tightly ar
 ### 2) Confidence intervals and coverage  
 For each repeated sample, the app builds a **(90%, 95%, or 99%) confidence interval** for the mean using a **z-based CI**:
 
-\[
-\bar{x} \pm z_{\alpha/2}\cdot \frac{s}{\sqrt{n}}
-\]
-
 It then visualizes many intervals and highlights how many of them include the true mean.
 
 ### 3) Coverage rate  
